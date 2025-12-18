@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  color: #C7AB93;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Bold.ttf');
+  font-weight: 600;
+}

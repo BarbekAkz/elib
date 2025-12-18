@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  gap: 22px;
+}
+
+.shelfContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.booksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 17px;
+}
+.emptyBook {
+  width: 124px;
+  height: 193px;
+}
+
+.shelf {
+  width: 281px;
+}
+.shelfFloor {
+  width: 100%;
+  height: 4px;
+  background-color: #3C2E25;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.shelfMenus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 17px;
+}
+
+.menu {
+  position: relative;
+  width: 124px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  user-select: none;
+  transition: 0.3s;
+  overflow: hidden;
+  padding-left: 4px;
+  display: flex;
+}
+.divider {
+  width: 108px;
+  height: 1px;
+  background-color: #C7AB93;
+  margin-block: 8px;
+  transition: 0.3s;
+  transform-origin: center;
+  transform: scaleX(0);
+
+  &.dividerExpanded {
+    transform: scale(1);
+  }
+
+  &.dividerTransparent {
+    transform: scaleX(1);
+    opacity: 0.33;
+  }
+}
+.bookName {
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.options {
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.optionsTitle {
+  font-size: 12px;
+  text-align: center;
+}
+.optionsIcon {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  transition: 0.3s;
+  height: 12px;
+}

@@ -1,0 +1,61 @@
+.modal {
+  position: fixed;
+  transition: 0.3s;
+}
+.window {
+  position: fixed;
+  z-index: 99999;
+  top: 50%; left: 50%;
+  width: 244px;
+  height: 251px;
+  border-radius: 20px;
+  padding: 12px;
+  transition: 0.3s;
+}
+.title {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 22px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.formItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 18px;
+}
+.label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.yearInput {
+  width: 64px;
+  text-align: center;
+}
+.buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 12px; right: 12px;
+  bottom: 12px;
+}
+.button {
+  width: 104px;
+  height: 37px;
+  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+
+  &.buttonCancel {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+  }
+}

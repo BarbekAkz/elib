@@ -1,0 +1,17 @@
+{
+  "name": "eLIB",
+  "short_name": "eLIB",
+  "description": "Локальная электронная читалка",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#695344",
+  "theme_color": "#41332B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon/logo.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
