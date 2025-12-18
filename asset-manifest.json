@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/elib/static/css/main.11cb8753.css",
+    "main.js": "/elib/static/js/main.bc5bfed3.js",
+    "static/media/logo.svg": "/elib/static/media/logo.810cf196de902462afb471c86b9e0797.svg",
+    "static/media/OpenSans-Medium.ttf": "/elib/static/media/OpenSans-Medium.1ff2367df8fb2b682428.ttf",
+    "static/media/OpenSans-Bold.ttf": "/elib/static/media/OpenSans-Bold.c51026488a9325ade145.ttf",
+    "static/media/OpenSans-Regular.ttf": "/elib/static/media/OpenSans-Regular.b5742f857779c0562634.ttf",
+    "static/media/OpenSans-Light.ttf": "/elib/static/media/OpenSans-Light.c105d755913afb45119b.ttf",
+    "static/media/sortSearch_icon.svg": "/elib/static/media/sortSearch_icon.5700a419e4ad3cf9cd72a3328a3cd251.svg",
+    "index.html": "/elib/index.html",
+    "static/media/addBook_icon.svg": "/elib/static/media/addBook_icon.f623c5712cedcccf2fa4d48c62cb29e5.svg",
+    "static/media/bookOptions_icon.svg": "/elib/static/media/bookOptions_icon.d495d0630c662b605ec59ebb6c5c9ea2.svg",
+    "static/media/close_icon.svg": "/elib/static/media/close_icon.acbf403890fc97583c3194e24cb180bc.svg",
+    "main.11cb8753.css.map": "/elib/static/css/main.11cb8753.css.map",
+    "main.bc5bfed3.js.map": "/elib/static/js/main.bc5bfed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11cb8753.css",
+    "static/js/main.bc5bfed3.js"
+  ]
+}
